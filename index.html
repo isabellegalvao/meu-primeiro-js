@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Meu primeiro código em Javascript</title>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">    
+    <link rel="stylesheet" href="css/estilo.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1 class="logo">Conversor de Moeda em Js</h1>
+        </header>
+        <main>
+            <div class="caixa-conversao">
+                <div class="caixa-reais">
+                    <label for="valorEmReais">Digite o valor em reais</label>
+                    <input type="number" id="valorEmReais" class="input-valor" value="0">
+                </div>
+                <div class="caixa-bitcoin">
+                    <span>Valor em Bitcoin</span>
+                    <span class="output-valor" id="valorEmBitcoins"></span>
+                </div>
+            </div>
+            <button class="botao" id="botaoConverter">Converter</button>
+        </main>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
