@@ -14,19 +14,20 @@ Finalizando projetos
 
 Tipos Primitivos
 
-● Boolean
-● Undefined (uma variável sem valor
+* Boolean
+* Undefined (uma variável sem valor
 definido)
-● Null (um único valor nulo)
-● Number (isso inclui Infinity e NaN)
-● Strings
-● Symbols (novo)
+* Null (um único valor nulo)
+* Number (isso inclui Infinity e NaN)
+* Strings
+* Symbols (novo)
 
 Objetos
 
-```
+
 ### Tipos de dados
 
+```
 //Numbers
 4
 9.
@@ -57,25 +58,25 @@ var b = Symbol(123);
 Um identificador JavaScript deve começar com:
 
 
-● uma letra
-● underline (_)
-● cifrão ($)
+* uma letra
+* underline (_)
+* cifrão ($)
 
 os caracteres subsequentes podem também ser
 
 
-● números (0-9)
-● letras incluem caracteres de "A" a "Z" (maiúsculos)
-● caracteres de "a" a "z" (minúsculos)
+* números (0-9)
+* letras incluem caracteres de "A" a "Z" (maiúsculos)
+* caracteres de "a" a "z" (minúsculos)
 
 ### Operadores Aritméticos
 
 
-● adição (+)
-● subtração (-)
-● multiplicação(*)
-● divisão (/) quociente
-● modulo (%) resto
+* adição (+)
+* subtração (-)
+* multiplicação(*)
+* divisão (/) quociente
+* modulo (%) resto
 
 ### Function declaration ou Function statement
 
